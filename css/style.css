@@ -106,3 +106,33 @@ body{
  #foto-perfil:hover{
     box-shadow: -10px 20px 20px blue;
  }
+
+ @media only screen and (max-device-width: 900px){
+    .content{
+        max-width: 100%;
+        min-height: 700px;
+    }
+
+    .card{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .card-right{
+        display: none;
+    }
+    #titulo-pro{
+        margin-top: 70px;
+        margin-left: auto;
+    }
+    #titulo-skills{
+        margin-left: auto;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+ }
