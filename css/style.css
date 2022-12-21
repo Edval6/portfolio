@@ -6,13 +6,37 @@ body{
 
  .content{
     width: 90%;
-    height: 500px;
+    height: 550px;
     margin: auto;
     margin-top: 100px;
     background: linear-gradient(to top left, rgb(33, 0, 37), rgb(2, 49, 63));
     opacity: 50%;
     border-radius: 20px;
     
+ }
+
+ .nav{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+ }
+
+ ul{
+    list-style-type: none;
+    display: inline-flex;
+
+ }
+
+ li{
+    padding: 10px;
+ }
+
+ li a{
+    text-decoration: none;
+    color: #df15e6;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 700;
  }
 
  .card{
