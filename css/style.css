@@ -12,6 +12,7 @@ body{
     background: linear-gradient(to top left, rgb(33, 0, 37), rgb(2, 49, 63));
     opacity: 50%;
     border-radius: 20px;
+    box-shadow: 1px 20px 20px rgb(2, 49, 63);
     
  }
 
