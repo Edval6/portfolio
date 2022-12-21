@@ -101,3 +101,7 @@ body{
     linear-gradient(to top left, rgb(2, 49, 63), rgb(33 0 37 / 22%));
     box-shadow: -10px 20px 20px rgb(84, 230, 84);
  }
+
+ #foto-perfil:hover{
+    box-shadow: -10px 20px 20px blue;
+ }
