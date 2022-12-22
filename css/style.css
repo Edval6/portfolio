@@ -55,7 +55,7 @@ body{
  .card-details{
    width: 100%;
    min-height: 200px;
-   margin-top: 100px;
+   margin-top: 150px;
  }
 
  .details-left{
@@ -164,6 +164,26 @@ body{
    text-shadow: -10px 10px 30px rgb(84, 230, 84);
    margin-top: 100px;
    margin: auto;
+}
+
+#titulo-hab{
+   width: 20%;
+   color: rgb(212, 55, 230);
+   font-size: 22px;
+   font-weight: 1200;
+   font-family: monospace;
+   margin-left: 22px;
+   text-shadow: 1px 1px rgb(54, 128, 238);
+}
+
+#right-hab{
+   color: rgb(212, 55, 230);
+   font-size: 22px;
+   font-weight: 1200;
+   font-family: monospace;
+   text-shadow: 1px 1px rgb(54, 128, 238);
+   margin-left: 470px;
+   margin-top: -25px;
 }
 
  #foto-perfil{
