@@ -58,6 +58,56 @@ body{
    margin-top: 150px;
  }
 
+ /* animacao com estrelas*/
+ .estrelas{
+   position: relative;
+   width: 3px;
+   height: 3px;
+   border-radius: 50%;
+   box-shadow: 50px 30px white,
+   100px 80px white,
+   800px 120px white,
+   250px 50px white,
+   300px 90px white,
+   200px 30px white,
+   50px 120px white,
+   60px 20px white,
+   150px 300px white,
+   420px 200px white,
+   210px 90px white;
+   animation: anim-estrelas 40s linear infinite;
+ }
+
+ .estrelas::after{
+   content: "";
+   position: absolute;
+   width: 3px;
+   height: 3px;
+   border-radius: 50%;
+   box-shadow: 50px 30px white,
+   100px 80px white,
+   800px 120px white,
+   250px 50px white,
+   300px 90px white,
+   200px 30px white,
+   50px 120px white,
+   60px 20px white,
+   150px 300px white,
+   420px 200px white,
+   210px 90px white;
+
+ }
+
+ @keyframes anim-estrelas{
+   from{
+      transform: translateY(0px);
+   }
+   to{
+      transform: translateY(-600px);
+   }
+ }
+
+ /*fim da animacao*/
  .details-left{
    width: 45%;
    min-height: 200px;
@@ -185,6 +235,18 @@ body{
    margin-left: 470px;
    margin-top: -25px;
 }
+
+p{
+   width: 90%;
+   color: rgb(114, 161, 231);
+   font-size: 17px;
+   font-weight: 600;
+   font-family: monospace;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 
  #foto-perfil{
     border-radius: 20%;
