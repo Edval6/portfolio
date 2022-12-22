@@ -10,7 +10,7 @@ body{
     margin: auto;
     margin-top: 100px;
     background: linear-gradient(to top left, rgb(33, 0, 37), rgb(2, 49, 63));
-    opacity: 50%;
+    opacity: 90%;
     border-radius: 20px;
     box-shadow: 1px 20px 20px rgb(2, 49, 63);
     
@@ -142,6 +142,7 @@ body{
    border-bottom-left-radius: 20px;
    border-bottom-right-radius: 20px;
    box-shadow: 5px 5px #1c596b;
+   animation: anim-hab 10s linear infinite;
 }
 
 .left-bg:hover{
@@ -188,13 +189,20 @@ body{
     text-shadow: -10px 10px 30px rgb(54, 128, 238);
  }
 
+ @keyframes anim-hab{
+   from{
+      transform: translateX(50px);
+   }
+ }
+
  #titulo-pro{
     color: rgb(61, 212, 61);
-    font-size: 30px;
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: -20px 10px 30px rgb(84, 230, 84);
     margin-top: 30px;
     margin-left: -120px;
+    
  }
 
  #titulo-skills{
@@ -216,7 +224,17 @@ body{
    margin: auto;
 }
 
-#titulo-hab{
+#titulo-hab1{
+   width: 20%;
+   color: rgb(212, 55, 230);
+   font-size: 22px;
+   font-weight: 1200;
+   font-family: monospace;
+   margin-left: 22px;
+   text-shadow: 1px 1px rgb(54, 128, 238);
+}
+
+#titulo-hab2{
    width: 20%;
    color: rgb(212, 55, 230);
    font-size: 22px;
@@ -253,10 +271,39 @@ p{
     width: 250px;
     background: linear-gradient(to top left, rgb(2, 49, 63), rgb(33 0 37 / 22%));
     box-shadow: -10px 20px 20px rgb(84, 230, 84);
+    animation: anim-foto 5s linear;
+ }
+
+ @keyframes anim-foto{
+   from{
+      transform: translateX(-50px);
+   }
  }
 
  #foto-perfil:hover{
     box-shadow: -10px 20px 20px blue;
+ }
+
+ .projetos{
+   margin-top: 340px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ .card-projetos{
+   width: 400px;
+   min-height: 400px;
+   margin: auto;
+   margin-top: 10px;
+ 
+ }
+
+ #img-pro{
+   width: 95%;
+   margin-left: 20px;
+
  }
 
  @media only screen and (max-device-width: 900px){
